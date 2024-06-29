@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+:root {
+    --primary-color: #ff0000;
+}
+
+body {
+    font-family: "Product Sans", sans-serif;
+    padding-top: 70px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.full-screen {
+    padding: 8rem 0;
+}
+
+.small-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 50px;
+    letter-spacing: 0.2px;
+}
+
+.codewars {
+    width: 13px;
+    height: 13px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar-brand .uil {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.8em;
+    margin: 24px 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+h3,
+b,
+strong {
+    font-weight: bold;
+}
+
+
+
+.color-mode-icon {
+    position: relative;
+    right: 6px;
+}
+
+#imgplus {
+    width: 35px;
+    height: 35px;
+}
+
+.strange {
+    color: var(--primary-color);
+}
+
+.color-mode-icon:after {
+    font-family: 'unicons';
+    content: '\ea9f';
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.color-mode-icon.active:after {
+    font-family: 'unicons';
+    content: '\eb65';
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.dark-mode {
+    background: #0c0c0d;
+}
+
+.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}

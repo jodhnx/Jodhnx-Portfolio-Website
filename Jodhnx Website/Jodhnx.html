@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <link rel="icon" type="image/x-icon" href="bulls_red-removebg-preview.png">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="Jodhnx.css">
+
+      <title>Official Jodhnx Website - Home</title>
+   </head>
+
+
+   <body>
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="Jodhnx.html" class="nav__logo">
+                  <i class="ri-gamepad-line"></i> Jodhnx Website
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="home.html" class="nav__link">Home</a></li>
+
+              
+                  <li><a href="setup.html" class="nav__link">Setup</a></li>
+            
+            
+               
+
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="projectshtml.html" class="dropdown__link">
+                              <i class="ri-code-box-fill"></i> HTML
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="projectsc.html" class="dropdown__link">
+                              <i class="ri-server-line"></i> C#
+                           </a>
+                        </li>
+
+                      
+                     </ul>
+                  </li>
+              
+          
+
+                  <li><a href="contact.html" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+            
+         </nav>
+      </header>
+
+<br>
+   
+
+<div id="video-container">
+   <video autoplay muted loop id="background-video">
+     <source src="147103 (540p).mp4" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+   <div id="overlay-content">
+     <div id="overlay-inner">
+       <div class="text-section">
+         <h1 class="glow">Jodhnx</h1>
+        <br>
+  
+       </div>
+       <div class="button-section">
+         <button  id="red-button1" onclick="scrollToSection()">About Me</button>
+         <a
+           href="contact.html" id="red-button2">Contact</a>
+       </div>
+     </div>
+     <br><br><br><br><br>
+     <h3 class="scroll">scroll</h3>
+   </div> 
+ </div>
+
+    
+<div class="container1">
+   <section class="about-me" id="about">
+       <h1><font color="black">About Me</font></h1>
+       <br>
+       <div class="content">
+           <div class="text">
+               <p>Hello, my name is Benni and I am currently 16 years old.
+                 <br>My hobbies are: programming, sports, video games.
+                <br> Mostly I'm playing shooter or survival games
+               
+                <br>
+                 </p>
+            
+           </div>
+           <div class="image">
+               <img src="BackgroundHome (3).jpg" alt="Profile Picture">
+           </div>
+       </div>
+   </div>
+</section>
+</div>
+
+<br><br>
+
+<section class="section">
+  <div class="container">
+
+  <p>
+  
+    <h1 class="h2 section-title">Services</h1>
+  </p>
+
+  <div class="cards">
+      <div class="card">
+          <h2>Web dev.
+          </h2>
+          <p>
+            Creation of modern and responsive websites.</p>
+      </div>
+      <div class="card">
+          <h2>C# dev.
+          </h2>
+          <p>
+            Console and WPF applications
+                                </p>
+      </div>
+      <div class="card">
+          <h2>
+            Unreal engine</h2>
+          <p>Gamedev. and Landscape creation </p>
+      </div>
+  </div>
+</section>
+</main>
+</div>
+
+<br><br>
+ 
+ 
+
+
+ <section class="section about" aria-label="about">
+   <div class="container">
+
+     <div class="wrapper">
+
+       <div data-reveal="left">
+         <h1 class="h2 section-title">What I Do?</h1>
+         <div class="text">
+         <p>
+          
+            I've been programming since 1.5 years now.<br>
+           Programming languages I know are:  <br>
+           HTML, CSS, JavaScript, C# <br>
+                 I also know the basics of Unreal Engine.
+          <br> 
+       
+         </p>
+         </div>
+       </div>
+
+       <ul class="progress-list" data-reveal="right">
+
+         <li class="progress-item">
+
+           <div class="label-wrapper">
+             <p>HTML</p>
+
+             <span class="span">70 %</span>
+           </div>
+
+           <div class="progress">
+             <div class="progress-fill" style="width: 70%; background-color: #a22901"></div>
+           </div>
+
+         </li>
+
+         <li class="progress-item">
+
+           <div class="label-wrapper">
+             <p>CSS</p>
+
+             <span class="span">60 %</span>
+           </div>
+
+           <div class="progress">
+             <div class="progress-fill" style="width: 60%; background-color: #003dae"></div>
+           </div>
+
+         </li>
+
+         <li class="progress-item">
+
+           <div class="label-wrapper">
+             <p>Java Script</p>
+
+             <span class="span">50 %</span>
+           </div>
+
+           <div class="progress">
+             <div class="progress-fill" style="width: 50%; background-color: #fffb00"></div>
+           </div>
+
+         </li>
+
+         <li class="progress-item">
+
+           <div class="label-wrapper">
+             <p>C#</p>
+
+             <span class="span">55 %</span>
+           </div>
+
+           <div class="progress">
+             <div class="progress-fill" style="width: 55%; background-color: #3e2882"></div>
+           </div>
+
+         </li>
+
+       </ul>
+
+     </div>
+
+ </section>
+
+
+
+
+ <br><br> <br><br><br><br> <br><br>
+
+
+
+      <footer>
+        <div>
+          <a href="Jodhnx.html"<h3><p style="margin: 0;">Officiall  Website<br>
+            Jodhnx
+        </p></h3></a>
+        
+        </div>
+        <div>
+          <a href="imprint.html">Imprint</a> |
+          <a href="contact.html">Contact</a>
+          <p>
+            &copy;2024 Jodhnx</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/channel/UC138XOiz_16fyMOhfh83iQg" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/Jodhnx_coding" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.tiktok.com/@jodhnx_coding" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="https://github.com/jodhnx" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </footer>
+      
+      <script src="Jodhnx.js"></script>
+   </body>
+</html>
